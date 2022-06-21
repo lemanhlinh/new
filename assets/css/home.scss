@@ -1,0 +1,94 @@
+.new-contents {
+    .newslist-content {
+        margin-bottom: 30px;
+        .new-item{
+            text-decoration: unset;
+            .title{
+                font-weight: bold;
+                color: #333;
+            }
+        }
+        .time-new{
+            color: #777777;
+            font-size: 14px;
+        }
+        figure{
+            border-radius: 4px;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+        .head-block-new{
+            margin-bottom: 30px;
+        }
+        .line-top{
+            figure{
+                max-height: 311px;
+            }
+            .new-item{
+                .title{
+                    font-size: 26px;
+                    @media (max-width: 768px) {
+                       font-size: 16px;
+                    }
+                }
+            }
+        }
+        .line-top-item{
+            figure{
+                max-height: 145px;
+                @media (max-width: 768px) {
+                    max-height: 311px;
+                }
+            }
+            .new-item{
+                .title{
+                    font-size: 16px;
+                    line-height: 22px;
+                    max-height: 47px;
+                    overflow: hidden;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .list_new_top{
+            .title-new-blog{
+                font-size: 24px;
+                font-weight: bold;
+                text-transform: uppercase;
+                margin-bottom: 24px;
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+            .list-content-new{
+                margin-bottom: 24px;
+                figure{
+                    max-height: 145px;
+                    margin-bottom: 0;
+                    @media (max-width: 768px) {
+                        margin-bottom: 1rem;
+                        max-height: 311px;
+                    }
+                }
+                .new-item{
+                    .title{
+                        font-size: 18px;
+                        margin-bottom: 15px;
+                        line-height: 26px;
+                        max-height: 52px;
+                        overflow: hidden;
+                    }
+                }
+                .summary-new-blog{
+                    color: #767676;
+                    line-height: 24px;
+                    max-height: 49px;
+                    overflow: hidden;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
