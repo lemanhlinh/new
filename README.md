@@ -4,7 +4,6 @@ module new fontend<br>
 <br>
 run query mysql
 ```mysql
-SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
@@ -77,7 +76,6 @@ SET FOREIGN_KEY_CHECKS = 1;
 
 ----------------------
 
-SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
